@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:wght@500&family=Lato:ital,wght@0,300;0,700;1,700&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container .image_section{
+    background-color: bisque;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container .image_section{
+    background: linear-gradient(90deg, rgb(199, 69, 69), rgb(104, 104, 240));
+}
+
+.container h1{
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container .image_section p{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 0px 20px 0px;
+}
+
+.container h6{
+    font-size: 27px;
+}
+
+.form_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 35%;
+    padding: 0px 80px;
+}
+
+
+.form_section input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form_section input:hover{
+    padding-bottom: 40px;
+}
+
+
+.form_section h2{
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 110px;
+}
+
+.form_section button{
+    height: 40px;
+    border: none;
+    background-color: #39c;
+    color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_section button img{
+    height: 17px;
+    margin-right: 6px;
+}
+
+.form_section h4{
+    margin-bottom: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.form_section .row_one{
+    display: flex;
+    font-size: 17px;
+    margin: 10px 0px 0px 0px;
+}
+
+.form_section .row_one p{
+    margin-left: 60px;
+}
+
+.form_section .row_one a{
+    text-decoration: none;
+    color: #39c;
+    font-size: 15px;
+}
+
+.form_section .row_one span{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 10px;
+}
+.form_section .row_one input{
+    margin-top: 2px;
+}
+
+.form_section .buttons .btn-a{
+    width: 100%;
+    background-color: white;
+    color: #39c;
+    border: 1px solid #39c;
+    margin-bottom: 20px;
+}
+
+.form_section .buttons p{
+    margin-bottom: 10px;
+}
+
+.form_section .buttons .btn-b{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.form_section .footter{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.form_section .footter p{
+    margin: 1px;
+    margin-top: 75px;
+    font-size: 13px;
+}
+.form_section .footter p:first-child{
+    color: #39c;
+}
+.form_section .footter p:last-child{
+    color: #39c;
+}
